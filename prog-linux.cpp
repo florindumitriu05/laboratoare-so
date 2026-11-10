@@ -41,6 +41,8 @@ int main() {
         std::cerr << "Eroare la sem_init!\n";
         exit(EXIT_FAILURE);
     }
+
+    shared_data->counter = 0;
     
     pid_t childPids[2];
     for (int i = 0; i < 2; i++) {

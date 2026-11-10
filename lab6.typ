@@ -13,6 +13,8 @@
   Laborator 6
 ]
 
+#link("https://github.com/florindumitriu05/laboratoare-so")
+
 = Linux
 #raw(read("prog-linux.cpp"), lang: "cpp", block: true)
 #image("images/linux-run.png")
