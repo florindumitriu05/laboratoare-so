@@ -23,5 +23,5 @@
 La prima rulare programul s-a blocat deoarece incercam sa folosesc `sem_close` pentru a inchide semaforul, insa functia corecta era `sem_post`.
 
 = Windows
-//#raw(read("prog-windows.cpp"), lang: "cpp", block: true))
-//#image("images/windows-run.png")
+#raw(read("prog-windows.cpp"), lang: "cpp", block: true))
+#image("images/windows-run.png")
